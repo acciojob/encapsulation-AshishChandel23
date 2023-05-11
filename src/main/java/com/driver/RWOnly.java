@@ -5,10 +5,18 @@ public class RWOnly {
     // declare a private vairable
     private String name;
 
-    String getName(){
-        return this.name;
+    public RWOnly() {
     }
-    void setName(String name){
+
+    public RWOnly(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
 }
